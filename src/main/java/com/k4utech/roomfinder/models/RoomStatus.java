@@ -5,8 +5,8 @@ import java.sql.Date;
 public class RoomStatus {
 	private int id;
 	private Date businessDate;
-	private int hours;
-	private boolean status;
+	private String hours;
+	private String status;
 	public int getId() {
 		return id;
 	}
@@ -19,18 +19,16 @@ public class RoomStatus {
 	public void setBusinessDate(Date businessDate) {
 		this.businessDate = businessDate;
 	}
-	public int getHours() {
+	public String getHours() {
 		return hours;
 	}
-	public void setHours(int hours) {
+	public void setHours(String hours) {
 		this.hours = hours;
 	}
-	public boolean isStatus() {
+	public String isStatus() {
 		return status;
 	}
-	public void setStatus(boolean status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
-	
-	
 }

@@ -21,5 +21,9 @@ public class RoomStatusCache {
 	public static Collection<RoomStatus> getAll() {
 		return statusMap.values();
 	}
+
+	public static void clear() {
+		statusMap.clear();
+	}
 	
 }
